@@ -3,6 +3,7 @@ CodeTest for Flatline Agency
 vraag 1:
 Wat vond je leuk om te doen?
 Ik vond het leuk om niewe dingen te leren zoals hoe ik een schaduw moest maken bij een image.
+en ik vond het een leuke project waardoor het ook automatisch leuker is om aan te werken.
 
 vraag 2: 
 Waar liep je tegenaan tijdens het developen?
