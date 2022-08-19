@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #192026;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Anonime {
+    width: 201px;
+    height: 32px;
+    font-family: 'merriweather', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.link {
+    height: 32px;
+    font-family: 'merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #868686;
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 375px;
+    background-color: #374151;
+    border-radius: 37px;
+    font-family: 'merriweather', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #868686;
+    letter-spacing: 0.07em;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.explore {
+    width: 118px;
+    height: 36px;
+    font-family: 'merriweather', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.description {
+    width: 387px;
+    height: 25px;
+    font-family: 'merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #868686;
+}
+
+.carousel {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/spy-x-family-blogroll-1656350614480.jpg');
+    width: 1170px;
+    height: 400px;
+    border-radius: 12px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.title {
+    width: 571px;
+    height: 64px;
+    font-family: 'merriweather', serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+
+.lead {
+    width: 571px;
+    height: 81px;
+    font-family: 'merriweather', serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: absolute;
+    top: 550px;
+    left: 450px;
+}
+
+.latest-release {
+    flex-direction: row;
+    width: 1170px;
+    height: 361px;
+}
+
+.new-release {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'merriweather', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+}
+
+.movies {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.onepiece {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/onepiece.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.boruto {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/boruto.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.spyfamily {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/spyfamilie.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.aot {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/ao-ashi.png');
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.captain {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/captain-tsubasa-2018.png');
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.aoashi {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.05), rgba(0, 0, 0, 0.73)),
+    url('images/ao-ashi.png');
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.episode{
+    display: flex;
+    flex-direction: row;
+    width: 129px;
+    height: 20px;
+    font-family: 'merriweather', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
